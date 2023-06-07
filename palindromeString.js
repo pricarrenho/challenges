@@ -8,6 +8,7 @@ const checkIsPalindrome = (value) => {
     .toLowerCase()
     .replaceAll(" ", "")
     .replaceAll("-", "");
+
   const normalizedValue = value
     .toLowerCase()
     .replaceAll(" ", "")
