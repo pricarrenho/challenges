@@ -59,15 +59,15 @@ function romanToInteger(value) {
 }
 
 const test1 = "X";
-// const test2 = "x";
-// const test3 = "IV";
-// const test4 = "Xxi";
-// const test5 = "hx";
-// const test6 = 6;
+const test2 = "x";
+const test3 = "IV";
+const test4 = "Xxi";
+const test5 = "hx";
+const test6 = 6;
 
 console.log("teste1", romanToInteger(test1));
-// console.log("teste2", romanToInteger(test2));
-// console.log("teste3", romanToInteger(test3));
-// console.log("teste4", romanToInteger(test4));
-// console.log("teste5", romanToInteger(test5));
-// console.log("teste6", romanToInteger(test6));
+console.log("teste2", romanToInteger(test2));
+console.log("teste3", romanToInteger(test3));
+console.log("teste4", romanToInteger(test4));
+console.log("teste5", romanToInteger(test5));
+console.log("teste6", romanToInteger(test6));
