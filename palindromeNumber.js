@@ -1,3 +1,5 @@
+//Check if it's a palindrome. Return with a boolean
+
 const checkIsPalindrome = (value) => {
   const reverseValue = [...value].reverse();
 

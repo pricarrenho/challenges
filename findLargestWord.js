@@ -1,24 +1,9 @@
-const sortByLargestLength = (a, b) => a.length + b.length;
+//Return the longest word
 
 const findLargestWord = (value) => {
   if (typeof value !== "string")
     throw new Error("Parâmetro inválido, favor passar uma frase");
 
-  // type 1
-  // return value.split(" ").sort(sortByLargestLength)[0];
-
-  // type 2
-  // let result = "";
-
-  // value.split(" ").forEach((item) => {
-  //   if (item.length > result.length) {
-  //     result = item;
-  //   }
-  // });
-
-  // return result;
-
-  // type 3
   return value.split(" ").reduce((prev, current) => {
     if (prev.length >= current.length) return prev;
     return current;

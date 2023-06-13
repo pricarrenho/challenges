@@ -1,4 +1,8 @@
-//Richest Customer Wealth
+/*
+You are given an  integer grid accounts where accounts is the amount of money the customer has in the​​​​ bank. Return the wealth that the richest customer has.
+
+A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
+*/
 
 function sumArrayValues(value) {
   return value.map((values) => {
@@ -16,10 +20,6 @@ function maximumWealth(accounts) {
 
     return prev;
   });
-
-  // return totalWealthOfAccounts.reduce((current, prev) =>
-  //   current > prev ? current : prev
-  // );
 }
 
 const test1 = [

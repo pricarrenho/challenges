@@ -1,5 +1,4 @@
-// ------------- Prime numbers up to 100 -------------
-// return array of primes number
+//Given an array of numbers from 0 to 100, return prime numbers
 
 const numbersFromZeroToThousand = [...Array(101).keys()];
 

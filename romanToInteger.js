@@ -1,3 +1,5 @@
+//Given a roman numeral, convert it to an integer.
+
 function romanToInteger(value) {
   const regexToValidateRomanNumber = /^[IVXLCDM]+$/;
   const normalizedValue = value.toUpperCase();

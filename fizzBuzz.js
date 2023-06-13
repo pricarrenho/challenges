@@ -1,3 +1,12 @@
+/*
+Given an integer n, return a string array answer where:
+
+"FizzBuzz" if i is divisible by 3 and 5.
+"Fizz" if i is divisible by 3.
+"Buzz" if i is divisible by 5.
+i (as a string) if none of the above conditions are true.
+*/
+
 function fizzBuzz(value) {
   if (typeof value !== "number") return "Coloque um número";
   if (!Number.isInteger(value)) return "Coloque um número inteiro";

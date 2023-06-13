@@ -1,4 +1,4 @@
-// ------------- Order by age -------------
+// Order by age
 
 const sortByAge = (value) => {
   return value.sort((a, b) => {

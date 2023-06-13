@@ -1,4 +1,4 @@
-// ------------- The character most used in a sentence -------------
+// The character most used in a sentence
 
 const findCharacterMostUsed = (value) => {
   if (typeof value !== "string" || !value.length) {

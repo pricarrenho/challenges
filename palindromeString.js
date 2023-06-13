@@ -1,3 +1,5 @@
+//Check if the string is a palindrome. Return with a boolean
+
 const checkIsPalindrome = (value) => {
   if (typeof value !== "string") return false;
 

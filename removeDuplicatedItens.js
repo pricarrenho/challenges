@@ -1,5 +1,4 @@
-// ------------- Remove duplicated itens on array -------------
-// Array of string and number only
+// Remove duplicated itens on array
 
 const removeDuplicatedItens = (value) => {
   return value.filter((item, index) => value.indexOf(item) === index);

@@ -1,4 +1,4 @@
-// ------------- Rock, Scissors, paper -------------
+// Rock, Scissors, paper
 // Winner player one or player two
 
 const whoWins = (value1, value2) => {

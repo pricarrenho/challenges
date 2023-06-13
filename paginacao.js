@@ -1,12 +1,14 @@
-// paginação
-// exemplo: X itens, X por página, offset, total de páginas
+/*
+Pagination
+example: X items, Y per page, offset, total pages
 
-// 100 posts
-// 10 per page
+X: 100 posts
+Y: 10 per page
 
-// retorna
-// total de paginas
-// as paginas
+Turn back:
+total pages
+the pages
+*/
 
 function pagination(itens, limitItens, currentPage) {
   const totalPages = Math.ceil(itens.length / limitItens);

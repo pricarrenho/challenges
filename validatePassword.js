@@ -1,4 +1,4 @@
-// ------------- Validate Password -------------
+// Validate Password
 // Bigger than 8 and smaller than 16
 // Must have at least one uppercase letter, one lowercase letter, one number and one special character
 
