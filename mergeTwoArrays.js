@@ -22,5 +22,5 @@ const list5 = [];
 const list6 = [0];
 
 console.log(mergeTwoArrays(list1, list2));
-// console.log(mergeTwoArrays(list3, list4));
-// console.log(mergeTwoArrays(list5, list6));
+console.log(mergeTwoArrays(list3, list4));
+console.log(mergeTwoArrays(list5, list6));

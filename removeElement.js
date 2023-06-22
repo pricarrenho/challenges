@@ -15,12 +15,3 @@ const test2 = [0, 1, 2, 2, 3, 0, 4, 2];
 
 console.log("teste 1", removeElement(test1, 3));
 console.log("teste 2", removeElement(test2, 2));
-
-// const withoutValue = numbers.map((item) =>
-//   item === value ? value : undefined
-// );
-
-// const matchAmount = numbers.filter((item) => item !== value);
-
-// numbers = matchAmount;
-// return matchAmount.length;
